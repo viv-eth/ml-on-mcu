@@ -1,0 +1,1 @@
+../TFLite/tensorflow/lite/micro/tools/make/downloads/cmsis/CMSIS/NN/Source/NNSupportFunctions/arm_nn_add_q7.c:42:6:arm_nn_add_q7	12	static,ignoring_inline_asm

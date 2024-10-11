@@ -1,0 +1,4 @@
+../Core/Src/CycleCounter.cpp:3:6:void ResetTimer()	1
+../Core/Src/CycleCounter.cpp:12:6:void StartTimer()	1
+../Core/Src/CycleCounter.cpp:16:6:void StopTimer()	1
+../Core/Src/CycleCounter.cpp:20:14:unsigned int getCycles()	1

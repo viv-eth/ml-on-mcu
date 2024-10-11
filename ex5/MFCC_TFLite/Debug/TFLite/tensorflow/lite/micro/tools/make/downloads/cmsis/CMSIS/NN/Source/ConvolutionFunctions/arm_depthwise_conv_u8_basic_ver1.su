@@ -1,0 +1,1 @@
+../TFLite/tensorflow/lite/micro/tools/make/downloads/cmsis/CMSIS/NN/Source/ConvolutionFunctions/arm_depthwise_conv_u8_basic_ver1.c:244:12:arm_depthwise_conv_u8_basic_ver1	240	static

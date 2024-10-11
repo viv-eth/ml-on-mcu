@@ -1,0 +1,5 @@
+../TFLite/tensorflow/lite/micro/kernels/pad.cc:40:7:void* tflite::ops::micro::pad::Init(TfLiteContext*, const char*, size_t)	8	static
+../TFLite/tensorflow/lite/micro/kernels/pad.cc:45:14:TfLiteStatus tflite::ops::micro::pad::Prepare(TfLiteContext*, TfLiteNode*)	112	static
+../TFLite/tensorflow/lite/micro/kernels/pad.cc:135:14:TfLiteStatus tflite::ops::micro::pad::Eval(TfLiteContext*, TfLiteNode*)	1008	static
+../TFLite/tensorflow/lite/micro/kernels/pad.cc:229:20:TfLiteRegistration tflite::ops::micro::Register_PAD()	8	static
+../TFLite/tensorflow/lite/micro/kernels/pad.cc:241:20:TfLiteRegistration tflite::ops::micro::Register_PADV2()	8	static

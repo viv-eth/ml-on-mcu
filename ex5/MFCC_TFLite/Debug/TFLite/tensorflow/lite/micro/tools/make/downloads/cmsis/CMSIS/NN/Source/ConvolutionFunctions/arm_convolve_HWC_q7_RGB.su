@@ -1,0 +1,1 @@
+../TFLite/tensorflow/lite/micro/tools/make/downloads/cmsis/CMSIS/NN/Source/ConvolutionFunctions/arm_convolve_HWC_q7_RGB.c:80:1:arm_convolve_HWC_q7_RGB	136	static,ignoring_inline_asm

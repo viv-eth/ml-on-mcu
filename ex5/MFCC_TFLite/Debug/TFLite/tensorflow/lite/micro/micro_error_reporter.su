@@ -1,0 +1,3 @@
+../TFLite/tensorflow/lite/micro/micro_error_reporter.h:27:3:tflite::MicroErrorReporter::~MicroErrorReporter()	0	static
+../TFLite/tensorflow/lite/micro/micro_error_reporter.cc:27:5:virtual int tflite::MicroErrorReporter::Report(const char*, va_list)	264	static
+../TFLite/tensorflow/lite/micro/micro_error_reporter.h:27:3:virtual tflite::MicroErrorReporter::~MicroErrorReporter()	8	static

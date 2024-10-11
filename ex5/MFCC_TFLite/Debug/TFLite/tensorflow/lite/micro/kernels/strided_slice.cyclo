@@ -1,0 +1,9 @@
+../TFLite/tensorflow/lite/micro/kernels/strided_slice.cc:120:7:void* tflite::ops::micro::strided_slice::Init(TfLiteContext*, const char*, size_t)	1
+../TFLite/tensorflow/lite/micro/kernels/strided_slice.cc:61:28:tflite::StridedSliceParams tflite::ops::micro::strided_slice::BuildStridedSliceParams(tflite::ops::micro::strided_slice::StridedSliceContext*)	41
+../TFLite/tensorflow/lite/micro/kernels/strided_slice.cc:85:14:TfLiteStatus tflite::ops::micro::strided_slice::CheckOutputSize(TfLiteContext*, tflite::ops::micro::strided_slice::StridedSliceContext*)	74
+../TFLite/tensorflow/lite/micro/kernels/strided_slice.cc:125:14:TfLiteStatus tflite::ops::micro::strided_slice::Prepare(TfLiteContext*, TfLiteNode*)	30
+../TFLite/tensorflow/lite/micro/kernels/strided_slice.cc:179:20:TfLiteRegistration tflite::ops::micro::Register_STRIDED_SLICE()	1
+../TFLite/tensorflow/lite/kernels/internal/reference/strided_slice.h:27:13:void tflite::reference_ops::StridedSlice(const tflite::StridedSliceParams&, const tflite::RuntimeShape&, const T*, const tflite::RuntimeShape&, T*) [with T = float]	178
+../TFLite/tensorflow/lite/kernels/internal/reference/strided_slice.h:27:13:void tflite::reference_ops::StridedSlice(const tflite::StridedSliceParams&, const tflite::RuntimeShape&, const T*, const tflite::RuntimeShape&, T*) [with T = unsigned char]	178
+../TFLite/tensorflow/lite/kernels/internal/reference/strided_slice.h:27:13:void tflite::reference_ops::StridedSlice(const tflite::StridedSliceParams&, const tflite::RuntimeShape&, const T*, const tflite::RuntimeShape&, T*) [with T = signed char]	178
+../TFLite/tensorflow/lite/micro/kernels/strided_slice.cc:139:14:TfLiteStatus tflite::ops::micro::strided_slice::Eval(TfLiteContext*, TfLiteNode*)	20

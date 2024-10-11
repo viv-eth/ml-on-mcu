@@ -1,0 +1,4 @@
+../TFLite/tensorflow/lite/micro/kernels/hard_swish.cc:37:7:void* tflite::ops::micro::hard_swish::HardSwishInit(TfLiteContext*, const char*, size_t)	8	static
+../TFLite/tensorflow/lite/micro/kernels/hard_swish.cc:42:14:TfLiteStatus tflite::ops::micro::hard_swish::HardSwishPrepare(TfLiteContext*, TfLiteNode*)	56	static
+../TFLite/tensorflow/lite/micro/kernels/hard_swish.cc:87:14:TfLiteStatus tflite::ops::micro::hard_swish::HardSwishEval(TfLiteContext*, TfLiteNode*)	192	static
+../TFLite/tensorflow/lite/micro/kernels/hard_swish.cc:129:20:TfLiteRegistration tflite::ops::micro::Register_HARD_SWISH()	8	static

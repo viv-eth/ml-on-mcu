@@ -1,0 +1,2 @@
+../TFLite/tensorflow/lite/micro/tools/make/downloads/cmsis/CMSIS/NN/Source/ConvolutionFunctions/arm_convolve_wrapper_s8.c:50:12:arm_convolve_wrapper_s8	48	static
+../TFLite/tensorflow/lite/micro/tools/make/downloads/cmsis/CMSIS/NN/Source/ConvolutionFunctions/arm_convolve_wrapper_s8.c:116:9:arm_convolve_wrapper_s8_get_buffer_size	0	static

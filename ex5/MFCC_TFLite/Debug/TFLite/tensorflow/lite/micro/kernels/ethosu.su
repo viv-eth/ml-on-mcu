@@ -1,0 +1,2 @@
+../TFLite/tensorflow/lite/micro/kernels/ethosu.cc:25:21:TfLiteRegistration* tflite::ops::micro::custom::Register_ETHOSU()	0	static
+../TFLite/tensorflow/lite/micro/kernels/ethosu.cc:27:13:const char* tflite::ops::micro::custom::GetString_ETHOSU()	0	static

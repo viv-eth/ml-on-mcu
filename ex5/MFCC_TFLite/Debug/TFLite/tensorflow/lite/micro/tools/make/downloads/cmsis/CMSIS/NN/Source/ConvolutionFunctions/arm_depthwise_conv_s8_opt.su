@@ -1,0 +1,2 @@
+../TFLite/tensorflow/lite/micro/tools/make/downloads/cmsis/CMSIS/NN/Source/ConvolutionFunctions/arm_depthwise_conv_s8_opt.c:52:12:arm_depthwise_conv_s8_opt	280	static,ignoring_inline_asm
+../TFLite/tensorflow/lite/micro/tools/make/downloads/cmsis/CMSIS/NN/Source/ConvolutionFunctions/arm_depthwise_conv_s8_opt.c:408:9:arm_depthwise_conv_s8_opt_get_buffer_size	0	static

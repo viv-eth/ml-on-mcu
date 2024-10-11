@@ -1,0 +1,2 @@
+../TFLite/tensorflow/lite/micro/kernels/kernel_util.cc:23:6:bool tflite::micro::HaveSameShapes(const TfLiteEvalTensor*, const TfLiteEvalTensor*)	2
+../TFLite/tensorflow/lite/micro/kernels/kernel_util.cc:30:20:const tflite::RuntimeShape tflite::micro::GetTensorShape(const TfLiteEvalTensor*)	6

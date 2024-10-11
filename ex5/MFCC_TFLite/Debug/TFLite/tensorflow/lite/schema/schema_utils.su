@@ -1,0 +1,11 @@
+../TFLite/third_party/flatbuffers/include/flatbuffers/flatbuffers.h:640:7:flatbuffers::DefaultAllocator::~DefaultAllocator()	0	static
+../TFLite/third_party/flatbuffers/include/flatbuffers/flatbuffers.h:646:8:virtual void flatbuffers::DefaultAllocator::deallocate(uint8_t*, size_t)	0	static
+../TFLite/third_party/flatbuffers/include/flatbuffers/flatbuffers.h:642:12:virtual uint8_t* flatbuffers::DefaultAllocator::allocate(size_t)	0	static
+../TFLite/third_party/flatbuffers/include/flatbuffers/flatbuffers.h:640:7:virtual flatbuffers::DefaultAllocator::~DefaultAllocator()	8	static
+../TFLite/third_party/flatbuffers/include/flatbuffers/flatbuffers.h:614:20:virtual uint8_t* flatbuffers::Allocator::reallocate_downward(uint8_t*, size_t, size_t, size_t, size_t)	32	static
+../TFLite/third_party/flatbuffers/include/flatbuffers/flatbuffers.h:917:10:size_t flatbuffers::vector_downward::ensure_space(size_t)	64	static
+../TFLite/tensorflow/lite/schema/schema_utils.cc:45:17:tflite::BuiltinOperator tflite::GetBuiltinCode(const tflite::OperatorCode*)	8	static
+../TFLite/tensorflow/lite/schema/schema_utils.cc:54:17:tflite::BuiltinOperator tflite::GetBuiltinCode(const tflite::OperatorCodeT*)	8	static
+../TFLite/tensorflow/lite/schema/schema_utils.cc:62:8:int8_t tflite::ConvertBuiltinCodeToDeprecatedBuiltinCode(tflite::BuiltinOperator)	0	static
+../TFLite/tensorflow/lite/schema/schema_utils.cc:79:35:flatbuffers::Offset<tflite::OperatorCode> tflite::CreateOperatorCode(flatbuffers::FlatBufferBuilder&, tflite::BuiltinOperator, flatbuffers::Offset<flatbuffers::String>, int32_t)	80	static
+../TFLite/tensorflow/lite/schema/schema_utils.cc:96:35:flatbuffers::Offset<tflite::OperatorCode> tflite::CreateOperatorCodeDirect(flatbuffers::FlatBufferBuilder&, tflite::BuiltinOperator, const char*, int32_t)	88	static

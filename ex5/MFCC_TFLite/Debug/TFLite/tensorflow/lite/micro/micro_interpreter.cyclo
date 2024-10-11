@@ -1,0 +1,20 @@
+../TFLite/tensorflow/lite/micro/micro_interpreter.cc:52:7:static void* tflite::internal::ContextHelper::AllocatePersistentBuffer(TfLiteContext*, size_t)	1
+../TFLite/tensorflow/lite/micro/micro_interpreter.cc:65:7:static void* tflite::internal::ContextHelper::GetScratchBuffer(TfLiteContext*, int)	1
+../TFLite/tensorflow/lite/micro/micro_interpreter.cc:82:15:static TfLiteTensor* tflite::internal::ContextHelper::GetTensor(const TfLiteContext*, int)	1
+../TFLite/tensorflow/lite/micro/micro_interpreter.cc:89:19:static TfLiteEvalTensor* tflite::internal::ContextHelper::GetEvalTensor(const TfLiteContext*, int)	1
+../TFLite/tensorflow/lite/micro/micro_interpreter.cc:58:14:static TfLiteStatus tflite::internal::ContextHelper::RequestScratchBufferInArena(TfLiteContext*, size_t, int*)	1
+../TFLite/tensorflow/lite/micro/micro_interpreter.cc:71:6:)	1
+../TFLite/tensorflow/lite/micro/micro_interpreter.cc:48:1:tflite::internal::ContextHelper::ContextHelper(tflite::ErrorReporter*, tflite::MicroAllocator*, const tflite::Model*)	1
+../TFLite/tensorflow/lite/micro/micro_interpreter.cc:95:6:void tflite::internal::ContextHelper::SetTfLiteEvalTensors(TfLiteEvalTensor*)	1
+../TFLite/tensorflow/lite/micro/micro_interpreter.cc:99:6:void tflite::internal::ContextHelper::SetScratchBufferHandles(tflite::ScratchBufferHandle*)	1
+../TFLite/tensorflow/lite/micro/micro_interpreter.cc:106:1:tflite::MicroInterpreter::MicroInterpreter(const tflite::Model*, const tflite::MicroOpResolver&, uint8_t*, size_t, tflite::ErrorReporter*, tflite::Profiler*)	3
+../TFLite/tensorflow/lite/micro/micro_interpreter.cc:126:1:tflite::MicroInterpreter::MicroInterpreter(const tflite::Model*, const tflite::MicroOpResolver&, tflite::MicroAllocator*, tflite::ErrorReporter*, tflite::Profiler*)	3
+../TFLite/tensorflow/lite/micro/micro_interpreter.cc:144:1:tflite::MicroInterpreter::~MicroInterpreter()	6
+../TFLite/tensorflow/lite/micro/micro_interpreter.cc:159:6:void tflite::MicroInterpreter::Init(tflite::Profiler*)	3
+../TFLite/tensorflow/lite/micro/micro_interpreter.cc:180:6:void tflite::MicroInterpreter::CorrectTensorEndianness(TfLiteEvalTensor*)	7
+../TFLite/tensorflow/lite/micro/micro_interpreter.cc:369:15:TfLiteTensor* tflite::MicroInterpreter::input(size_t)	7
+../TFLite/tensorflow/lite/micro/micro_interpreter.cc:393:15:TfLiteTensor* tflite::MicroInterpreter::output(size_t)	7
+../TFLite/tensorflow/lite/micro/micro_interpreter.cc:419:15:TfLiteTensor* tflite::MicroInterpreter::tensor(size_t)	2
+../TFLite/tensorflow/lite/micro/micro_interpreter.cc:431:14:TfLiteStatus tflite::MicroInterpreter::ResetVariableTensors()	11
+../TFLite/tensorflow/lite/micro/micro_interpreter.cc:220:14:TfLiteStatus tflite::MicroInterpreter::AllocateTensors()	15
+../TFLite/tensorflow/lite/micro/micro_interpreter.cc:320:14:TfLiteStatus tflite::MicroInterpreter::Invoke()	16

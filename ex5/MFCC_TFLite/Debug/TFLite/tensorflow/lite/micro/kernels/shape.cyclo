@@ -1,0 +1,3 @@
+../TFLite/tensorflow/lite/micro/kernels/shape.cc:44:14:TfLiteStatus tflite::{anonymous}::Eval(TfLiteContext*, TfLiteNode*)	9
+../TFLite/tensorflow/lite/micro/kernels/shape.cc:37:14:TfLiteStatus tflite::{anonymous}::Prepare(TfLiteContext*, TfLiteNode*)	3
+../TFLite/tensorflow/lite/micro/kernels/shape.cc:62:20:TfLiteRegistration tflite::Register_SHAPE()	1

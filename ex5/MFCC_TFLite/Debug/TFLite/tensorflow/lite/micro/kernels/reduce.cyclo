@@ -1,0 +1,12 @@
+../TFLite/tensorflow/lite/micro/kernels/reduce.cc:48:7:void* tflite::ops::micro::reduce::InitReduce(TfLiteContext*, const char*, size_t)	1
+../TFLite/tensorflow/lite/micro/kernels/reduce.cc:261:14:TfLiteStatus tflite::ops::micro::reduce::EvalMax(TfLiteContext*, TfLiteNode*)	70
+../TFLite/tensorflow/lite/kernels/internal/reference/reduce.h:260:13:void tflite::reference_ops::Mean(const tflite::MeanParams&, const tflite::RuntimeShape&, const uint8_t*, int32_t, float, const tflite::RuntimeShape&, uint8_t*, int32_t, float)	42
+../TFLite/tensorflow/lite/micro/kernels/reduce.cc:52:14:TfLiteStatus tflite::ops::micro::reduce::PrepareSimple(TfLiteContext*, TfLiteNode*)	6
+../TFLite/tensorflow/lite/micro/kernels/reduce.cc:81:14:TfLiteStatus tflite::ops::micro::reduce::PrepareMax(TfLiteContext*, TfLiteNode*)	4
+../TFLite/tensorflow/lite/micro/kernels/reduce.cc:102:14:TfLiteStatus tflite::ops::micro::reduce::PrepareMeanOrSum(TfLiteContext*, TfLiteNode*)	7
+../TFLite/tensorflow/lite/micro/kernels/reduce.cc:127:6:void tflite::ops::micro::reduce::ResolveAxis(const int*, int, tflite::MeanParams*)	11
+../TFLite/tensorflow/lite/micro/kernels/reduce.cc:318:20:TfLiteRegistration tflite::ops::micro::Register_MEAN()	1
+../TFLite/tensorflow/lite/micro/kernels/reduce.cc:329:20:TfLiteRegistration tflite::ops::micro::Register_REDUCE_MAX()	1
+../TFLite/tensorflow/lite/kernels/internal/reference/reduce.h:217:13:void tflite::reference_ops::Mean(const tflite::MeanParams&, const tflite::RuntimeShape&, const T*, const tflite::RuntimeShape&, T*) [with T = float]	37
+../TFLite/tensorflow/lite/kernels/internal/reference/integer_ops/mean.h:24:13:void tflite::reference_integer_ops::Mean(const tflite::MeanParams&, int32_t, int32_t, const tflite::RuntimeShape&, const integer_type*, int32_t, const tflite::RuntimeShape&, integer_type*, int32_t) [with integer_type = signed char]	43
+../TFLite/tensorflow/lite/micro/kernels/reduce.cc:139:14:TfLiteStatus tflite::ops::micro::reduce::EvalMean(TfLiteContext*, TfLiteNode*)	222

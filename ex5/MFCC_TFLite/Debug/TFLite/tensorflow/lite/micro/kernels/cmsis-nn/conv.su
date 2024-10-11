@@ -1,0 +1,6 @@
+../TFLite/tensorflow/lite/micro/kernels/cmsis-nn/conv.cc:117:7:void* tflite::{anonymous}::Init(TfLiteContext*, const char*, size_t)	8	static
+../TFLite/tensorflow/lite/micro/kernels/cmsis-nn/conv.cc:122:14:TfLiteStatus tflite::{anonymous}::Prepare(TfLiteContext*, TfLiteNode*)	248	static
+../TFLite/tensorflow/lite/kernels/internal/reference/integer_ops/conv.h:24:13:void tflite::reference_integer_ops::ConvPerChannel(const tflite::ConvParams&, const int32_t*, const int32_t*, const tflite::RuntimeShape&, const int8_t*, const tflite::RuntimeShape&, const int8_t*, const tflite::RuntimeShape&, const int32_t*, const tflite::RuntimeShape&, int8_t*)	152	static
+../TFLite/tensorflow/lite/micro/kernels/cmsis-nn/conv.cc:246:14:TfLiteStatus tflite::{anonymous}::EvalQuantizedPerChannel(TfLiteContext*, TfLiteNode*, TfLiteConvParams*, const tflite::{anonymous}::OpData&, const TfLiteEvalTensor*, const TfLiteEvalTensor*, const TfLiteEvalTensor*, TfLiteEvalTensor*, TfLiteEvalTensor*)	424	static
+../TFLite/tensorflow/lite/micro/kernels/cmsis-nn/conv.cc:405:14:TfLiteStatus tflite::{anonymous}::Eval(TfLiteContext*, TfLiteNode*)	504	static
+../TFLite/tensorflow/lite/micro/kernels/cmsis-nn/conv.cc:445:20:TfLiteRegistration tflite::Register_CONV_2D()	8	static

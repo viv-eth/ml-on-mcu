@@ -1,0 +1,14 @@
+../TFLite/tensorflow/lite/core/api/op_resolver.h:43:35:virtual tflite::OpResolver::TfLiteDelegatePtrVector tflite::OpResolver::GetDelegates(int) const	1
+../Core/Src/main.cpp:153:37:void __tcf_0()	1
+../TFLite/tensorflow/lite/micro/micro_mutable_op_resolver.h:40:29:const TfLiteRegistration* tflite::MicroMutableOpResolver<tOpCount>::FindOp(tflite::BuiltinOperator) const [with unsigned int tOpCount = 6]	14
+../TFLite/tensorflow/lite/micro/micro_mutable_op_resolver.h:35:7:tflite::MicroMutableOpResolver<6>::~MicroMutableOpResolver()	1
+../Core/Src/main.cpp:218:76:void __tcf_1()	1
+../TFLite/tensorflow/lite/micro/micro_mutable_op_resolver.h:35:7:virtual tflite::MicroMutableOpResolver<6>::~MicroMutableOpResolver()	1
+../TFLite/tensorflow/lite/micro/micro_mutable_op_resolver.h:63:41:TfLiteStatus (* tflite::MicroMutableOpResolver<tOpCount>::GetOpDataParser(tflite::BuiltinOperator) const)(const tflite::Operator*, tflite::ErrorReporter*, tflite::BuiltinDataAllocator*, void**) [with unsigned int tOpCount = 6]	13
+../TFLite/tensorflow/lite/micro/micro_mutable_op_resolver.h:52:29:const TfLiteRegistration* tflite::MicroMutableOpResolver<tOpCount>::FindOp(const char*) const [with unsigned int tOpCount = 6]	19
+../TFLite/tensorflow/lite/micro/micro_op_resolver.h:53:29:virtual const TfLiteRegistration* tflite::MicroOpResolver::FindOp(tflite::BuiltinOperator, int) const	15
+../TFLite/tensorflow/lite/micro/micro_op_resolver.h:60:29:virtual const TfLiteRegistration* tflite::MicroOpResolver::FindOp(const char*, int) const	20
+../Core/Src/main.cpp:73:1:int __io_putchar(int)	2
+../Core/Src/main.cpp:493:6:void SystemClock_Config()	1
+../Core/Src/main.cpp:118:5:int main()	41
+../Core/Src/main.cpp:600:6:void Error_Handler()	1

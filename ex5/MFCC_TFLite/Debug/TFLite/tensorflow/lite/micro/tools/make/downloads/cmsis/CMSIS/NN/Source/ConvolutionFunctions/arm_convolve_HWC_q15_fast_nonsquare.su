@@ -1,0 +1,1 @@
+../TFLite/tensorflow/lite/micro/tools/make/downloads/cmsis/CMSIS/NN/Source/ConvolutionFunctions/arm_convolve_HWC_q15_fast_nonsquare.c:85:1:arm_convolve_HWC_q15_fast_nonsquare	184	static,ignoring_inline_asm

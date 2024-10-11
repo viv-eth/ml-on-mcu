@@ -1,0 +1,9 @@
+../TFLite/tensorflow/lite/micro/kernels/cmsis-nn/softmax.cc:68:7:void* tflite::{anonymous}::SoftmaxInit(TfLiteContext*, const char*, size_t)	8	static
+../TFLite/tensorflow/lite/micro/kernels/cmsis-nn/softmax.cc:73:14:TfLiteStatus tflite::{anonymous}::SoftmaxPrepare(TfLiteContext*, TfLiteNode*)	64	static
+../TFLite/tensorflow/lite/micro/kernels/cmsis-nn/softmax.cc:157:20:TfLiteRegistration tflite::Register_SOFTMAX()	8	static
+../TFLite/third_party/gemmlowp/fixedpoint/fixedpoint.h:842:25:gemmlowp::FixedPoint<tRawType, 0> gemmlowp::one_over_one_plus_x_for_x_in_0_1(gemmlowp::FixedPoint<tRawType, 0>) [with tRawType = long int]	12	static
+../TFLite/third_party/gemmlowp/fixedpoint/fixedpoint.h:721:25:gemmlowp::FixedPoint<tRawType, 0> gemmlowp::exp_on_interval_between_negative_one_quarter_and_0_excl(gemmlowp::FixedPoint<tRawType, 0>) [with tRawType = long int]	16	static
+../TFLite/third_party/gemmlowp/fixedpoint/fixedpoint.h:746:25:gemmlowp::FixedPoint<tRawType, 0> gemmlowp::exp_on_negative_values(gemmlowp::FixedPoint<tRawType, tIntegerBits_a>) [with tRawType = long int; int tIntegerBits = 5]	16	static
+../TFLite/tensorflow/lite/kernels/internal/reference/softmax.h:67:13:void tflite::reference_ops::Softmax(const tflite::SoftmaxParams&, const tflite::RuntimeShape&, const InputT*, const tflite::RuntimeShape&, OutputT*) [with InputT = unsigned char; OutputT = unsigned char]	80	static
+../TFLite/tensorflow/lite/kernels/internal/reference/softmax.h:67:13:void tflite::reference_ops::Softmax(const tflite::SoftmaxParams&, const tflite::RuntimeShape&, const InputT*, const tflite::RuntimeShape&, OutputT*) [with InputT = signed char; OutputT = short int]	80	static
+../TFLite/tensorflow/lite/micro/kernels/cmsis-nn/softmax.cc:130:14:TfLiteStatus tflite::{anonymous}::SoftmaxEval(TfLiteContext*, TfLiteNode*)	200	static

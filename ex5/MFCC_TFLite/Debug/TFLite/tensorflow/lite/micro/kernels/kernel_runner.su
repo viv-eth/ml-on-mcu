@@ -1,0 +1,9 @@
+../TFLite/tensorflow/lite/micro/kernels/kernel_runner.cc:74:15:static TfLiteTensor* tflite::micro::KernelRunner::GetTensor(const TfLiteContext*, int)	8	static
+../TFLite/tensorflow/lite/micro/kernels/kernel_runner.cc:83:19:static TfLiteEvalTensor* tflite::micro::KernelRunner::GetEvalTensor(const TfLiteContext*, int)	16	static
+../TFLite/tensorflow/lite/micro/kernels/kernel_runner.cc:102:7:static void* tflite::micro::KernelRunner::AllocatePersistentBuffer(TfLiteContext*, size_t)	8	static
+../TFLite/tensorflow/lite/micro/kernels/kernel_runner.cc:111:14:static TfLiteStatus tflite::micro::KernelRunner::RequestScratchBufferInArena(TfLiteContext*, size_t, int*)	16	static
+../TFLite/tensorflow/lite/micro/kernels/kernel_runner.cc:140:7:static void* tflite::micro::KernelRunner::GetScratchBuffer(TfLiteContext*, int)	8	static
+../TFLite/tensorflow/lite/micro/kernels/kernel_runner.cc:152:6:)	12	static
+../TFLite/tensorflow/lite/micro/kernels/kernel_runner.cc:30:1:tflite::micro::KernelRunner::KernelRunner(const TfLiteRegistration&, TfLiteTensor*, int, TfLiteIntArray*, TfLiteIntArray*, void*, tflite::ErrorReporter*)	24	static
+../TFLite/tensorflow/lite/micro/kernels/kernel_runner.cc:55:14:TfLiteStatus tflite::micro::KernelRunner::InitAndPrepare(const char*)	16	static
+../TFLite/tensorflow/lite/micro/kernels/kernel_runner.cc:65:14:TfLiteStatus tflite::micro::KernelRunner::Invoke()	8	static

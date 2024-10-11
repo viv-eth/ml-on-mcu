@@ -1,0 +1,11 @@
+../TFLite/tensorflow/lite/micro/kernels/cmsis-nn/mul.cc:75:7:void* tflite::ops::micro::mul::Init(TfLiteContext*, const char*, size_t)	8	static
+../TFLite/tensorflow/lite/kernels/internal/reference/mul.h:74:13:void tflite::reference_ops::BroadcastMul4DSlow(const tflite::ArithmeticParams&, const tflite::RuntimeShape&, const uint8_t*, const tflite::RuntimeShape&, const uint8_t*, const tflite::RuntimeShape&, uint8_t*)	320	static
+../TFLite/tensorflow/lite/kernels/internal/reference/process_broadcast_shapes.h:38:13:bool tflite::reference_ops::ProcessBroadcastShapes(const tflite::RuntimeShape&, const tflite::RuntimeShape&, tflite::ArithmeticParams*)	120	static
+../TFLite/tensorflow/lite/micro/kernels/cmsis-nn/mul.cc:49:14:TfLiteStatus tflite::ops::micro::mul::CalculateOpData(TfLiteContext*, TfLiteNode*, TfLiteMulParams*, tflite::ops::micro::mul::OpData*)	56	static
+../TFLite/tensorflow/lite/micro/kernels/cmsis-nn/mul.cc:80:14:TfLiteStatus tflite::ops::micro::mul::Prepare(TfLiteContext*, TfLiteNode*)	24	static
+../TFLite/tensorflow/lite/micro/kernels/cmsis-nn/mul.cc:154:6:void tflite::ops::micro::mul::EvalFloat(TfLiteContext*, TfLiteNode*, TfLiteMulParams*, const TfLiteEvalTensor*, const TfLiteEvalTensor*, TfLiteEvalTensor*)	544	static
+../TFLite/tensorflow/lite/micro/kernels/cmsis-nn/mul.cc:213:20:TfLiteRegistration tflite::ops::micro::Register_MUL()	8	static
+../TFLite/tensorflow/lite/kernels/internal/reference/integer_ops/mul.h:89:13:void tflite::reference_integer_ops::BroadcastMul4DSlow(const tflite::ArithmeticParams&, const tflite::RuntimeShape&, const T*, const tflite::RuntimeShape&, const T*, const tflite::RuntimeShape&, T*) [with T = signed char]	320	static
+../TFLite/tensorflow/lite/micro/kernels/cmsis-nn/mul.cc:102:6:void tflite::ops::micro::mul::EvalQuantized(TfLiteContext*, TfLiteNode*, TfLiteMulParams*, const tflite::ops::micro::mul::OpData&, const TfLiteEvalTensor*, const TfLiteEvalTensor*, TfLiteEvalTensor*)	440	static
+../TFLite/tensorflow/lite/micro/kernels/cmsis-nn/mul.cc:102:6:void tflite::ops::micro::mul::EvalQuantized(TfLiteContext*, TfLiteNode*, TfLiteMulParams*, const tflite::ops::micro::mul::OpData&, const TfLiteEvalTensor*, const TfLiteEvalTensor*, TfLiteEvalTensor*)	4	static
+../TFLite/tensorflow/lite/micro/kernels/cmsis-nn/mul.cc:182:14:TfLiteStatus tflite::ops::micro::mul::Eval(TfLiteContext*, TfLiteNode*)	32	static

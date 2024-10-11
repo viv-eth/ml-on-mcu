@@ -1,0 +1,4 @@
+../TFLite/tensorflow/lite/micro/kernels/quantize.cc:38:7:void* tflite::{anonymous}::Init(TfLiteContext*, const char*, size_t)	1
+../TFLite/tensorflow/lite/micro/kernels/quantize.cc:43:14:TfLiteStatus tflite::{anonymous}::Prepare(TfLiteContext*, TfLiteNode*)	21
+../TFLite/tensorflow/lite/micro/kernels/quantize.cc:89:14:TfLiteStatus tflite::{anonymous}::Eval(TfLiteContext*, TfLiteNode*)	133
+../TFLite/tensorflow/lite/micro/kernels/quantize.cc:178:20:TfLiteRegistration tflite::Register_QUANTIZE()	1

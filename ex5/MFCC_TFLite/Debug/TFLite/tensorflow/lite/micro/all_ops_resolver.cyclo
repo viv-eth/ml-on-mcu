@@ -1,0 +1,10 @@
+../TFLite/tensorflow/lite/core/api/op_resolver.h:43:35:virtual tflite::OpResolver::TfLiteDelegatePtrVector tflite::OpResolver::GetDelegates(int) const	1
+../TFLite/tensorflow/lite/micro/micro_mutable_op_resolver.h:40:29:const TfLiteRegistration* tflite::MicroMutableOpResolver<tOpCount>::FindOp(tflite::BuiltinOperator) const [with unsigned int tOpCount = 128]	5
+../TFLite/tensorflow/lite/micro/all_ops_resolver.h:25:7:tflite::AllOpsResolver::~AllOpsResolver()	1
+../TFLite/tensorflow/lite/micro/micro_mutable_op_resolver.h:63:41:TfLiteStatus (* tflite::MicroMutableOpResolver<tOpCount>::GetOpDataParser(tflite::BuiltinOperator) const)(const tflite::Operator*, tflite::ErrorReporter*, tflite::BuiltinDataAllocator*, void**) [with unsigned int tOpCount = 128]	4
+../TFLite/tensorflow/lite/micro/micro_mutable_op_resolver.h:52:29:const TfLiteRegistration* tflite::MicroMutableOpResolver<tOpCount>::FindOp(const char*) const [with unsigned int tOpCount = 128]	5
+../TFLite/tensorflow/lite/micro/all_ops_resolver.h:25:7:virtual tflite::AllOpsResolver::~AllOpsResolver()	1
+../TFLite/tensorflow/lite/micro/micro_op_resolver.h:53:29:virtual const TfLiteRegistration* tflite::MicroOpResolver::FindOp(tflite::BuiltinOperator, int) const	6
+../TFLite/tensorflow/lite/micro/micro_mutable_op_resolver.h:411:16:TfLiteStatus tflite::MicroMutableOpResolver<tOpCount>::AddBuiltin(tflite::BuiltinOperator, const TfLiteRegistration&, tflite::MicroOpResolver::BuiltinParseFunction) [with unsigned int tOpCount = 128]	11
+../TFLite/tensorflow/lite/micro/micro_op_resolver.h:60:29:virtual const TfLiteRegistration* tflite::MicroOpResolver::FindOp(const char*, int) const	6
+../TFLite/tensorflow/lite/micro/all_ops_resolver.cc:27:1:tflite::AllOpsResolver::AllOpsResolver()	309

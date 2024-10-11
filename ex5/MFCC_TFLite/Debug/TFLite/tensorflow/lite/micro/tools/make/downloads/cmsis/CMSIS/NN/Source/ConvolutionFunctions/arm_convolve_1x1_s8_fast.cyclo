@@ -1,0 +1,2 @@
+../TFLite/tensorflow/lite/micro/tools/make/downloads/cmsis/CMSIS/NN/Source/ConvolutionFunctions/arm_convolve_1x1_s8_fast.c:53:12:arm_convolve_1x1_s8_fast	6
+../TFLite/tensorflow/lite/micro/tools/make/downloads/cmsis/CMSIS/NN/Source/ConvolutionFunctions/arm_convolve_1x1_s8_fast.c:178:9:arm_convolve_1x1_s8_fast_get_buffer_size	1
