@@ -1,2 +1,0 @@
-../TFLite/tensorflow/lite/micro/micro_time.cc:36:9:int32_t tflite::ticks_per_second()	1
-../TFLite/tensorflow/lite/micro/micro_time.cc:42:9:int32_t tflite::GetCurrentTimeTicks()	1
